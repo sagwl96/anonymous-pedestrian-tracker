@@ -13,7 +13,7 @@ privacy_mode = True
 
 track_history = defaultdict(lambda: [])
 
-model = YOLO("yolo11m.pt")
+model = YOLO("yolo11s.pt")
 names = model.model.names
 
 # Open a connection to the camera (0 is the default camera)
